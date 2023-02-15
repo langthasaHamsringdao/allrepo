@@ -62,21 +62,7 @@ for entry in basepath.iterdir():
 printline('getting file attributes')
 
 
-from pathlib import Path
-
-file_list = []
-
-basepath = Path('.')
-
-for item in  basepath.iterdir():
-	if item.is_file() and item.name.end:
-		file_list.append(item.name)
-
-file_list.sort()
-
-
-for file in file_list:
-	print(file)
+print('this has been added')
 
 
 
